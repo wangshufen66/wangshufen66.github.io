@@ -1,5 +1,5 @@
 
-name: Deploy to Github Pages
+name: Deploy to Github Pages66
 on:
   push:
     branches:
