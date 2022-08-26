@@ -18,7 +18,7 @@ const sidebar = {
 };
 
 module.exports = {
-  dest: 'build',
+  // dest: 'build',
   // 配置插件  plugins: ["demo-container"],
   title: '前端文档',
   description: "wayne's Blog ",
