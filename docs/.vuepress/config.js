@@ -20,6 +20,11 @@ const sidebar = {
 module.exports = {
   // dest: 'build',
   // 配置插件  plugins: ["demo-container"],
+  plugins: [
+    ['@vuepress/search', {
+      searchMaxSuggestions: 10
+    }]
+  ],
   title: '前端文档',
   description: "wayne's Blog ",
   base: '/',
