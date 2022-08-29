@@ -45,7 +45,7 @@ module.exports = {
       avatar: '/img/avatar.jpg',
       description: '今天不想做，所以才要做',
       sns: {
-        github: 'ttps://github.com/wangshufen66', // Github
+        github: 'wangshufen66', // Github
         email: '15295502569@163.com', // 邮箱
       },
     },
