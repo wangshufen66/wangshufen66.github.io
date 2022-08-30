@@ -21,9 +21,12 @@ module.exports = {
   // dest: 'build',
   // 配置插件  plugins: ["demo-container"],
   plugins: [
-    ['@vuepress/search', {
-      searchMaxSuggestions: 10
-    }]
+    [
+      '@vuepress/search',
+      {
+        searchMaxSuggestions: 10,
+      },
+    ],
   ],
   title: '前端文档',
   description: "wayne's Blog ",
@@ -72,26 +75,29 @@ module.exports = {
     },
     pages: {
       vue: {
-          subtitle: '永远骄傲！～',
-          bgImage: {
-              path: "/img/home-bg/0.jpg",
-              mask: 'rgba(211, 136, 37, .5)'
-          }
+        subtitle: '永远骄傲！～',
+        bgImage: {
+          path: '/img/home-bg/0.jpg',
+          mask: 'rgba(211, 136, 37, .5)',
+        },
       },
       react: {
-          subtitle: '永远自豪！～',
-          bgImage: {
-              path: "/img/home-bg/0.jpg",
-              mask: 'rgba(211, 136, 37, .5)'
-          }
-      }
-  },
+        subtitle: '永远自豪！～',
+        bgImage: {
+          path: '/img/home-bg/0.jpg',
+          mask: 'rgba(211, 136, 37, .5)',
+        },
+      },
+    },
     locales: {
       '/': {
         label: 'English',
         selectText: 'Languages',
         // nav: require('./configs/navBar/en'),
         nav: [
+          { text: 'Home', link: '/', icon: 'fa-fort-awesome' },
+          { text: 'Tags', link: '/tags/', icon: 'fa-tag' },
+          { text: 'Links', link: '/links/', icon: 'fa-satellite-dish' },
           { text: '前端工程化', link: '/gongchenghua/vite.md', icon: 'fa-fort-awesome' },
           { text: '工具', link: '/tool/', icon: 'fa-tag' },
           { text: 'vue3', link: '/vue/', icon: 'fa-satellite-dish' },
